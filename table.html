@@ -3,7 +3,7 @@
     <head>
         <title>Tables</title>
         <style>
-            table, th, tr, td  {
+            .tableOne  {
                 border: 1px solid black;
                 border-collapse:collapse;
             }
@@ -11,23 +11,144 @@
                 height: 98px;
                 width: 173px;
             }
+            .tableTwo{
+                padding:20px;
+                text-align:center;
+                border:2px solid black;
+                border-collapse:collapse;
+            }
+            .tableThree {
+                border:none;
+                border-collapse:collapse
+            }
+            .tableThreeRow:nth-child(even) {
+  background-color: #D6EEEE;
+            }
         </style>
     </head>
     <body>
-        <table>
-            <tr>
+        <table class="tableOne">
+            <tr class="tableOne">
                 <th colspan="2">Fresh Fruit</th>
             </tr>
-            <tr>
-                <td style="width:350px;">It has long been known that a diet that includes at least a few servings of 
+            <tr class="tableOne">
+                <td  class="tableOne" style="width:350px;">It has long been known that a diet that includes at least a few servings of 
                     fresh fruit every day will help keep you healthy, fit and trim.</td>
-                <td><img src="/images/fruit.jpg" alt="fruit goes here" </td>
+                <td class="tableOne"><img src="/images/fruit.jpg" alt="fruit goes here" </td>
             </tr>
-            <tr>
-                <td style="width:350px;">Vegitables are not fruit, however a few servings of these are also a part of
+            <tr class="tableOne">
+                <td  class="tableOne" style="width:350px;">Vegitables are not fruit, however a few servings of these are also a part of
                     a heathly balanced diet.
                 </td>
-                <td><img src="/images/vegitables.jpg" alt="these are not fruit"</td>
+                <td class="tableOne"><img src="/images/vegitables.jpg" alt="these are not fruit"</td>
+            </tr>
+        </table>
+        <hr>
+        <table class="tableTwo">
+            <tr class="tableTwo">
+                <th colspan="6">My tech stock picks</th>
+            </tr>
+            <tr class="tableTwo">
+                <th class="tableTwo">Name</th>
+                <th class="tableTwo">Symbol</th>
+                <th class="tableTwo">Current</th>
+                <th class="tableTwo">52WK HI</th>
+                <th class="tableTwo">52WK LO</th>
+                <th class="tableTwo">P/E RATIO</th>
+            </tr>
+            <tr class="tableTwo">
+                <td style="text-align:left;">Microsoft</td>
+                <td class="tableTwo">MSFT</td>
+                <td class="tableTwo">86-3/8</td>
+                <td class="tableTwo">119-15/16</td>
+                <td class="tableTwo">75-1/2</td>
+                <td class="tableTwo">56.09</td>   
+            </tr>
+            <tr class="tableTwo">
+                <td style="text-align:left;">Cisco Systems</td>
+                <td class="tableTwo">CSCO</td>
+                <td class="tableTwo">72.1/2</td>
+                <td class="tableTwo">82</td>
+                <td class="tableTwo">24-13/16</td>
+                <td class="tableTwo">400.69</td>
+            </tr>
+            <tr class="tableTwo">
+                <td style="text-align:left;">America Online</td>
+                <td class="tableTwo">AOL</td>
+                <td class="tableTwo">63</td>
+                <td class="tableTwo">95-13/16</td>
+                <td class="tableTwo">38-15/32</td>
+                <td class="tableTwo">350.00</td>
+            </tr>
+            <tr class="tableTwo">
+                <td style="text-align:left;">Qwest Communications</td>
+                <td class="tableTwo">Q</td>
+                <td class="tableTwo">44-7/16</td>
+                <td class="tableTwo">66</td>
+                <td class="tableTwo">25-3/4</td>
+                <td class="tableTwo">74.06</td>
+            </tr>
+            <tr class="tableTwo">
+                <td style="text-align:left;">Dell Computers</td>
+                <td class="tableTwo">DELL</td>
+                <td class="tableTwo">53-59/64</td>
+                <td class="tableTwo">59-11/16</td>
+                <td class="tableTwo">31-3/8</td>
+                <td class="tableTwo">86.97</td>
+            </tr>
+        </table>
+        <hr>
+        <table class="tableThree">
+            <tr class="tableThreeRow">
+                <th colspan="6">My tech stock picks</th>
+            </tr>
+            <tr class="tableThreeRow">
+                <th class="tableThree">Name</th>
+                <th class="tableThree">Symbol</th>
+                <th class="tableThree">Current</th>
+                <th class="tableThree">52WK HI</th>
+                <th class="tableThree">52WK LO</th>
+                <th class="tableThree">P/E RATIO</th>
+            </tr>
+            <tr class="tableThreeRow">
+                <td style="text-align:left;">Microsoft</td>
+                <td class="tableThree">MSFT</td>
+                <td class="tableThree">86-3/8</td>
+                <td class="tableThree">119-15/16</td>
+                <td class="tableThree">75-1/2</td>
+                <td class="tableThree">56.09</td>   
+            </tr>
+            <tr class="tableThreeRow">
+                <td style="text-align:left;">Cisco Systems</td>
+                <td class="tableThree">CSCO</td>
+                <td class="tableThree">72.1/2</td>
+                <td class="tableThree">82</td>
+                <td class="tableThree">24-13/16</td>
+                <td class="tableThree">400.69</td>
+            </tr>
+            <tr class="tableThreeRow">
+                <td style="text-align:left;">America Online</td>
+                <td class="tableThree">AOL</td>
+                <td class="tableThree">63</td>
+                <td class="tableThree">95-13/16</td>
+                <td class="tableThree">38-15/32</td>
+                <td class="tableThree">350.00</td>
+            </tr>
+            <tr class="tableThreeRow">
+                <td style="text-align:left;">Qwest Communications</td>
+                <td class="tableThree">Q</td>
+                <td class="tableThree">44-7/16</td>
+                <td class="tableThree">66</td>
+                <td class="tableThree">25-3/4</td>
+                <td class="tableThree">74.06</td>
+            </tr>
+            <tr class="tableThreeRow">
+                <td style="text-align:left;">Dell Computers</td>
+                <td class="tableThree">DELL</td>
+                <td class="tableThree">53-59/64</td>
+                <td class="tableThree">59-11/16</td>
+                <td class="tableThree">31-3/8</td>
+                <td class="tableThree">86.97</td>
             </tr>
         </table>
     </body>
