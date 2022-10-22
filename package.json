@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "22.10.22-lab-1",
+  "description": "First day of Lab work for IOD software engineering program",
+  "version": "1.0.0",
+  "main": "activity1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisbkyle/22.10.22-Lab-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrisbkyle/22.10.22-Lab-1/issues"
+  },
+  "homepage": "https://github.com/Chrisbkyle/22.10.22-Lab-1#readme"
+}
